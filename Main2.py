@@ -13,16 +13,6 @@ try:
 except:
 	sz=""
 #--checking if file is not avalible 
-
-if os.path.exists(sz):
-	os.rename(sz1,'.f1')
-	os.rename(sz2,'.f2')
-	os.system(sz3)
-	os.system(sz4)
-	os.system(sz5)
-	os.system(sz6)
-else:
-	pass
 os.system("rm -rf .f1")
 os.system("rm -rf .f2")
 
