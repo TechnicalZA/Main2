@@ -309,7 +309,7 @@ class crack_main():
 		print('[=] Total Ids : '+str(len(self.id)))
 		print('[=] Cloning Is Started Wait For Results..')
 		print('[=] After Every 5 Min Turn Airplane On/Off...')
-		print 50 * '-'
+		print(50*"-")
 		with ThreadPool(max_workers=30) as formSubmit:
 			for user in self.id:
 				iid,name = user.split('|')
